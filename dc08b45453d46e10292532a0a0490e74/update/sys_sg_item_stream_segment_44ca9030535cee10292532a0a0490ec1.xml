@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_segment">
+    <sys_sg_item_stream_segment action="INSERT_OR_UPDATE">
+        <empty_state/>
+        <interleave_order_direction>asc</interleave_order_direction>
+        <max_offline_rows>500</max_offline_rows>
+        <name>Security Incident Management Item Stream Segment</name>
+        <order>0</order>
+        <screen display_value="Security Incident Management">8cca9030535cee10292532a0a0490ebd</screen>
+        <sys_class_name>sys_sg_item_stream_segment</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-12 16:58:00</sys_created_on>
+        <sys_id>44ca9030535cee10292532a0a0490ec1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Security Incident Management Item Stream Segment</sys_name>
+        <sys_package display_value="Security Incident Management" source="x_1597174_securi_0">dc08b45453d46e10292532a0a0490e74</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Security Incident Management">dc08b45453d46e10292532a0a0490e74</sys_scope>
+        <sys_update_name>sys_sg_item_stream_segment_44ca9030535cee10292532a0a0490ec1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-12 16:58:00</sys_updated_on>
+    </sys_sg_item_stream_segment>
+</record_update>

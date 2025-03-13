@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_1597174_securi_0.security_incident_user" name="x_1597174_securi_0.security_incident_user">6c21495053186e10292532a0a0490ee8</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-11 06:28:43</sys_created_on>
+        <sys_id>a021495053186e10292532a0a0490eec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>6c21495053186e10292532a0a0490ee8</sys_name>
+        <sys_package display_value="Security Incident Management" source="x_1597174_securi_0">dc08b45453d46e10292532a0a0490e74</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Security Incident Management">dc08b45453d46e10292532a0a0490e74</sys_scope>
+        <sys_update_name>sys_embedded_help_role_a021495053186e10292532a0a0490eec</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-11 06:28:43</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

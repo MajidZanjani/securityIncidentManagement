@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_icon">
+    <sys_sg_icon action="INSERT_OR_UPDATE">
+        <icon>{"Name":"List","Value":"e90f","FontColor":"#293E40","FontName":"now-mobile-icons","Shape":"Circle"}</icon>
+        <name>List</name>
+        <sys_class_name>sys_sg_icon</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-13 13:39:22</sys_created_on>
+        <sys_id>dce6fc4d53906250292532a0a0490e47</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>List</sys_name>
+        <sys_package display_value="Security Incident Management" source="x_1597174_securi_0">dc08b45453d46e10292532a0a0490e74</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Security Incident Management">dc08b45453d46e10292532a0a0490e74</sys_scope>
+        <sys_update_name>sys_sg_icon_dce6fc4d53906250292532a0a0490e47</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-13 13:39:22</sys_updated_on>
+        <type>font</type>
+    </sys_sg_icon>
+</record_update>

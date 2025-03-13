@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="New Button (Security Incident Management)">d4cad030535cee10292532a0a0490e1e</button>
+        <item_parameter display_value="Security Incident Management assigned_to">04ca9030535cee10292532a0a0490ef2</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-12 16:58:01</sys_created_on>
+        <sys_id>18cad030535cee10292532a0a0490e54</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>04ca9030535cee10292532a0a0490ef2</sys_name>
+        <sys_package display_value="Security Incident Management" source="x_1597174_securi_0">dc08b45453d46e10292532a0a0490e74</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Security Incident Management">dc08b45453d46e10292532a0a0490e74</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_18cad030535cee10292532a0a0490e54</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-12 16:58:01</sys_updated_on>
+        <ui_parameter display_value="Assigned to">1ccad030535cee10292532a0a0490e20</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>
