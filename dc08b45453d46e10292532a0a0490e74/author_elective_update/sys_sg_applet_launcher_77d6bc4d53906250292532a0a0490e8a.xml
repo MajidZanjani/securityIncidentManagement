@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher">
+    <sys_sg_applet_launcher action="DELETE">
+        <access_control_type>user_roles</access_control_type>
+        <active>true</active>
+        <available_offline>false</available_offline>
+        <header_button/>
+        <header_titles/>
+        <hide_empty_sections>true</hide_empty_sections>
+        <name>Security Incident Management</name>
+        <required_roles>x_1597174_securi_0.admin,x_1597174_securi_0.security_incident_user,x_1597174_securi_0.user</required_roles>
+        <search_config/>
+        <sys_class_name>sys_sg_applet_launcher</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-13 13:39:20</sys_created_on>
+        <sys_id>77d6bc4d53906250292532a0a0490e8a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Security Incident Management</sys_name>
+        <sys_package display_value="Security Incident Management" source="x_1597174_securi_0">dc08b45453d46e10292532a0a0490e74</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Security Incident Management">dc08b45453d46e10292532a0a0490e74</sys_scope>
+        <sys_update_name>sys_sg_applet_launcher_77d6bc4d53906250292532a0a0490e8a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-13 13:39:20</sys_updated_on>
+        <title>Security Incident Management</title>
+    </sys_sg_applet_launcher>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Security Incident Management">dc08b45453d46e10292532a0a0490e74</application>
+        <file_path/>
+        <instance_id>181506eadb15ced037d72a5913961995</instance_id>
+        <instance_name>dev254566</instance_name>
+        <name>sys_sg_applet_launcher_77d6bc4d53906250292532a0a0490e8a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher"><sys_sg_applet_launcher action="INSERT_OR_UPDATE"><access_control_type>user_roles</access_control_type><active>true</active><available_offline>false</available_offline><header_button/><header_titles/><hide_empty_sections>true</hide_empty_sections><name>Security Incident Management</name><required_roles>x_1597174_securi_0.admin,x_1597174_securi_0.security_incident_user,x_1597174_securi_0.user</required_roles><search_config/><sys_class_name>sys_sg_applet_launcher</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-13 13:39:20</sys_created_on><sys_id>77d6bc4d53906250292532a0a0490e8a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Security Incident Management</sys_name><sys_package display_value="Security Incident Management" source="x_1597174_securi_0">dc08b45453d46e10292532a0a0490e74</sys_package><sys_policy/><sys_scope display_value="Security Incident Management">dc08b45453d46e10292532a0a0490e74</sys_scope><sys_update_name>sys_sg_applet_launcher_77d6bc4d53906250292532a0a0490e8a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-13 13:39:20</sys_updated_on><title>Security Incident Management</title></sys_sg_applet_launcher></record_update>]]></payload>
+        <payload_hash>1062319590</payload_hash>
+        <record_name>Security Incident Management</record_name>
+        <reverted_from/>
+        <source>dc08b45453d46e10292532a0a0490e79</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-13 13:39:23</sys_created_on>
+        <sys_id>28e6308d53906250292532a0a0490e71</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1958fbb2ed10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-13 13:39:23</sys_updated_on>
+        <type>Launcher screen</type>
+        <update_guid>2ce6308d6d90625094c50418cc57a570</update_guid>
+        <update_guid_history>2ce6308d6d90625094c50418cc57a570:1062319590</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-13 13:40:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_applet_launcher">sys_sg_applet_launcher</sys_db_object>
+        <sys_id>8a3a2b15872c49c0af314b3882f92400</sys_id>
+        <sys_metadata>77d6bc4d53906250292532a0a0490e8a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Security Incident Management</sys_name>
+        <sys_package display_value="Security Incident Management" source="x_1597174_securi_0">dc08b45453d46e10292532a0a0490e74</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Security Incident Management">dc08b45453d46e10292532a0a0490e74</sys_scope>
+        <sys_scope_delete display_value="">188ef73e6c954952a78051bcd9fa66e1</sys_scope_delete>
+        <sys_update_name>sys_sg_applet_launcher_77d6bc4d53906250292532a0a0490e8a</sys_update_name>
+        <sys_update_version display_value="sys_sg_applet_launcher_77d6bc4d53906250292532a0a0490e8a">28e6308d53906250292532a0a0490e71</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-13 13:40:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

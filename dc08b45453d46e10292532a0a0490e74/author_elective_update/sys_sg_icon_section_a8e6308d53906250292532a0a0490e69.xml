@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_icon_section">
+    <sys_sg_icon_section action="DELETE">
+        <access_control_type>user_roles</access_control_type>
+        <active>true</active>
+        <applets>5ce6fc4d53906250292532a0a0490e48</applets>
+        <card_size/>
+        <column_count/>
+        <custom_height/>
+        <custom_width/>
+        <data_item/>
+        <display_feed_count>true</display_feed_count>
+        <hide_header>false</hide_header>
+        <hide_section_if_empty>false</hide_section_if_empty>
+        <is_custom_size>false</is_custom_size>
+        <is_hidden_preference_name/>
+        <orientation>vertical</orientation>
+        <required_roles>x_1597174_securi_0.admin,x_1597174_securi_0.security_incident_user,x_1597174_securi_0.user</required_roles>
+        <row_count/>
+        <sys_class_name>sys_sg_icon_section</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-13 13:39:23</sys_created_on>
+        <sys_id>a8e6308d53906250292532a0a0490e69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Security Incident</sys_name>
+        <sys_package display_value="Security Incident Management" source="x_1597174_securi_0">dc08b45453d46e10292532a0a0490e74</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Security Incident Management">dc08b45453d46e10292532a0a0490e74</sys_scope>
+        <sys_update_name>sys_sg_icon_section_a8e6308d53906250292532a0a0490e69</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-13 13:39:23</sys_updated_on>
+        <table/>
+        <title>Security Incident</title>
+        <visible_condition/>
+        <wide_column_count/>
+    </sys_sg_icon_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Security Incident Management">dc08b45453d46e10292532a0a0490e74</application>
+        <file_path/>
+        <instance_id>181506eadb15ced037d72a5913961995</instance_id>
+        <instance_name>dev254566</instance_name>
+        <name>sys_sg_icon_section_a8e6308d53906250292532a0a0490e69</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_icon_section"><sys_sg_icon_section action="INSERT_OR_UPDATE"><access_control_type>user_roles</access_control_type><active>true</active><applets>5ce6fc4d53906250292532a0a0490e48</applets><card_size/><column_count/><custom_height/><custom_width/><data_item/><display_feed_count>true</display_feed_count><hide_header>false</hide_header><hide_section_if_empty>false</hide_section_if_empty><is_custom_size>false</is_custom_size><is_hidden_preference_name/><orientation>vertical</orientation><required_roles>x_1597174_securi_0.admin,x_1597174_securi_0.security_incident_user,x_1597174_securi_0.user</required_roles><row_count/><sys_class_name>sys_sg_icon_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-13 13:39:23</sys_created_on><sys_id>a8e6308d53906250292532a0a0490e69</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Security Incident</sys_name><sys_package display_value="Security Incident Management" source="x_1597174_securi_0">dc08b45453d46e10292532a0a0490e74</sys_package><sys_policy/><sys_scope display_value="Security Incident Management">dc08b45453d46e10292532a0a0490e74</sys_scope><sys_update_name>sys_sg_icon_section_a8e6308d53906250292532a0a0490e69</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-13 13:39:23</sys_updated_on><table/><title>Security Incident</title><visible_condition/><wide_column_count/></sys_sg_icon_section></record_update>]]></payload>
+        <payload_hash>-286655850</payload_hash>
+        <record_name>Security Incident</record_name>
+        <reverted_from/>
+        <source>dc08b45453d46e10292532a0a0490e79</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-13 13:39:24</sys_created_on>
+        <sys_id>64e6308d53906250292532a0a0490eaa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1958fbb30070000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-13 13:39:24</sys_updated_on>
+        <type>Legacy icon section</type>
+        <update_guid>68e6308daa906250c0f118ed8817eba9</update_guid>
+        <update_guid_history>68e6308daa906250c0f118ed8817eba9:-286655850</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-13 13:40:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_icon_section">sys_sg_icon_section</sys_db_object>
+        <sys_id>1ee78d592c5a41b8ac6187850e128840</sys_id>
+        <sys_metadata>a8e6308d53906250292532a0a0490e69</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Security Incident</sys_name>
+        <sys_package display_value="Security Incident Management" source="x_1597174_securi_0">dc08b45453d46e10292532a0a0490e74</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Security Incident Management">dc08b45453d46e10292532a0a0490e74</sys_scope>
+        <sys_scope_delete display_value="">188ef73e6c954952a78051bcd9fa66e1</sys_scope_delete>
+        <sys_update_name>sys_sg_icon_section_a8e6308d53906250292532a0a0490e69</sys_update_name>
+        <sys_update_version display_value="sys_sg_icon_section_a8e6308d53906250292532a0a0490e69">64e6308d53906250292532a0a0490eaa</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-13 13:40:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="DELETE">
+        <active>true</active>
+        <conditions table="x_1597174_securi_0_si_incident">state=closed^EQ<item display_value="Closed" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="closed"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+    var fields = g_form.getEditableFields();
+    fields.forEach(function(field) {
+        g_form.setReadOnly(field, true);
+    });
+	g_form.setReadOnly('state', false);
+}]]></script_true>
+        <set_values/>
+        <short_description>Make Fields Read-Only When State is Closed</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-12 14:00:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>672ba7a05358ee10292532a0a0490e53</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Make Fields Read-Only When State is Closed</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Security Incident Management" source="x_1597174_securi_0">dc08b45453d46e10292532a0a0490e74</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Security Incident Management">dc08b45453d46e10292532a0a0490e74</sys_scope>
+        <sys_update_name>sys_ui_policy_672ba7a05358ee10292532a0a0490e53</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-12 14:05:17</sys_updated_on>
+        <table>x_1597174_securi_0_si_incident</table>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_ui_policy>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Security Incident Management">dc08b45453d46e10292532a0a0490e74</application>
+        <file_path/>
+        <instance_id>181506eadb15ced037d72a5913961995</instance_id>
+        <instance_name>dev254566</instance_name>
+        <name>sys_ui_policy_672ba7a05358ee10292532a0a0490e53</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions table="x_1597174_securi_0_si_incident"&gt;state=closed^EQ&lt;item display_value="Closed" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="closed"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/conditions&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;true&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+    var fields = g_form.getEditableFields();
+    fields.forEach(function(field) {
+        g_form.setReadOnly(field, true);
+    });
+	g_form.setReadOnly('state', false);
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;Make Fields Read-Only When State is Closed&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-12 14:00:41&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;672ba7a05358ee10292532a0a0490e53&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;Make Fields Read-Only When State is Closed&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Security Incident Management" source="x_1597174_securi_0"&gt;dc08b45453d46e10292532a0a0490e74&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Security Incident Management"&gt;dc08b45453d46e10292532a0a0490e74&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_672ba7a05358ee10292532a0a0490e53&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-12 14:05:17&lt;/sys_updated_on&gt;&lt;table&gt;x_1597174_securi_0_si_incident&lt;/table&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1338258006</payload_hash>
+        <record_name>Make Fields Read-Only When State is Closed</record_name>
+        <reverted_from/>
+        <source>dc08b45453d46e10292532a0a0490e79</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-12 14:05:17</sys_created_on>
+        <sys_id>d2333f2c5358ee10292532a0a0490ef6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1958aac88750000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-12 14:05:17</sys_updated_on>
+        <type>UI Policy</type>
+        <update_guid>5e33fb28f658ee1093e621324e23da20</update_guid>
+        <update_guid_history>5e33fb28f658ee1093e621324e23da20:1338258006,e9a2fbe84d58ee1035c92806bb79afb1:88728533,07327f286358ee10369f1aff4d9f5864:-594795094,762273e80e58ee10634a83909884ff38:1956311951</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-12 14:07:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy">sys_ui_policy</sys_db_object>
+        <sys_id>512994b1e45048a7a4658288bcb023e9</sys_id>
+        <sys_metadata>672ba7a05358ee10292532a0a0490e53</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Make Fields Read-Only When State is Closed</sys_name>
+        <sys_package display_value="Security Incident Management" source="x_1597174_securi_0">dc08b45453d46e10292532a0a0490e74</sys_package>
+        <sys_parent display_value="Security Incident">2cc0495053186e10292532a0a0490eaa</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Security Incident Management">dc08b45453d46e10292532a0a0490e74</sys_scope>
+        <sys_scope_delete display_value="">188ef73e6c954952a78051bcd9fa66e1</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_672ba7a05358ee10292532a0a0490e53</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_672ba7a05358ee10292532a0a0490e53">d2333f2c5358ee10292532a0a0490ef6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-12 14:07:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

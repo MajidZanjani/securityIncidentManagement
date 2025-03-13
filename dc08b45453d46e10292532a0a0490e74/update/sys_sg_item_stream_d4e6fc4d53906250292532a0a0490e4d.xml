@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream">
+    <sys_sg_item_stream action="INSERT_OR_UPDATE">
+        <data_item display_value="SIM label Data Item">ffd6bc4d53906250292532a0a0490e8d</data_item>
+        <interleaved_field/>
+        <name>5ce6fc4d53906250292532a0a0490e48 Item Stream</name>
+        <sys_class_name>sys_sg_item_stream</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-13 13:39:22</sys_created_on>
+        <sys_id>d4e6fc4d53906250292532a0a0490e4d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>5ce6fc4d53906250292532a0a0490e48 Item Stream</sys_name>
+        <sys_package display_value="Security Incident Management" source="x_1597174_securi_0">dc08b45453d46e10292532a0a0490e74</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Security Incident Management">dc08b45453d46e10292532a0a0490e74</sys_scope>
+        <sys_update_name>sys_sg_item_stream_d4e6fc4d53906250292532a0a0490e4d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-13 13:39:22</sys_updated_on>
+        <table/>
+    </sys_sg_item_stream>
+</record_update>
