@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Report a Security Incident">39da7cc153d06250292532a0a0490ef3</sc_cat_item>
+        <sc_category display_value="Security and Access">d2f7cae4c611227a018ddc481b34e099</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-13 16:41:43</sys_created_on>
+        <sys_id>db90218553946250292532a0a0490e0c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Security and Access.Report a Security Incident</sys_name>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Security Incident Management">dc08b45453d46e10292532a0a0490e74</sys_scope>
+        <sys_update_name>sc_cat_item_category_db90218553946250292532a0a0490e0c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-13 16:41:43</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Security Incident Management">dc08b45453d46e10292532a0a0490e74</application>
+        <file_path/>
+        <instance_id>181506eadb15ced037d72a5913961995</instance_id>
+        <instance_name>dev254566</instance_name>
+        <name>sc_cat_item_category_db90218553946250292532a0a0490e0c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Report a Security Incident">39da7cc153d06250292532a0a0490ef3</sc_cat_item><sc_category display_value="Security and Access">d2f7cae4c611227a018ddc481b34e099</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-13 16:41:43</sys_created_on><sys_id>db90218553946250292532a0a0490e0c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Security and Access.Report a Security Incident</sys_name><sys_package/><sys_policy/><sys_scope display_value="Security Incident Management">dc08b45453d46e10292532a0a0490e74</sys_scope><sys_update_name>sc_cat_item_category_db90218553946250292532a0a0490e0c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-13 16:41:43</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>399804537</payload_hash>
+        <record_name>Security and Access.Report a Security Incident</record_name>
+        <reverted_from/>
+        <source>05a0618553946250292532a0a0490e59</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-13 16:41:52</sys_created_on>
+        <sys_id>a9a0618553946250292532a0a0490efc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19590623dcf0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-13 16:41:52</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>ada061852a946250264caabf95a6b9fb</update_guid>
+        <update_guid_history>ada061852a946250264caabf95a6b9fb:399804537,a5a06185129462503d497c9d58ea5ee4:996904297</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Security and Access.Report a Security Incident">e3e625cd53946250292532a0a0490ec9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-13 17:09:18</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>7899b3bead9a46b6bf45ca0de3bfdb39</sys_id>
+        <sys_metadata>db90218553946250292532a0a0490e0c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Security and Access.Report a Security Incident</sys_name>
+        <sys_package/>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Security Incident Management">dc08b45453d46e10292532a0a0490e74</sys_scope>
+        <sys_scope_delete display_value="">188ef73e6c954952a78051bcd9fa66e1</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_db90218553946250292532a0a0490e0c</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_db90218553946250292532a0a0490e0c">a9a0618553946250292532a0a0490efc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-13 17:09:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
