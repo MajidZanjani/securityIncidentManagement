@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>affected_user</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-18 07:31:02</sys_created_on>
+        <sys_id>5072dd2253902210292532a0a0490e39</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>affected_user</sys_name>
+        <sys_package display_value="Security Incident Management" source="x_1597174_securi_0">dc08b45453d46e10292532a0a0490e74</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Security Incident Management">dc08b45453d46e10292532a0a0490e74</sys_scope>
+        <sys_update_name>sys_ui_policy_action_5072dd2253902210292532a0a0490e39</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-18 07:31:02</sys_updated_on>
+        <table>x_1597174_securi_0_si_incident</table>
+        <ui_policy display_value="Make fields read-only on state closed.">a912952253902210292532a0a0490e3c</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=5072dd2253902210292532a0a0490e39"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Security Incident Management">dc08b45453d46e10292532a0a0490e74</application>
+        <file_path/>
+        <instance_id>181506eadb15ced037d72a5913961995</instance_id>
+        <instance_name>dev254566</instance_name>
+        <name>sys_ui_policy_action_5072dd2253902210292532a0a0490e39</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>true</disabled><field>affected_user</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-18 07:31:02</sys_created_on><sys_id>5072dd2253902210292532a0a0490e39</sys_id><sys_mod_count>0</sys_mod_count><sys_name>affected_user</sys_name><sys_package display_value="Security Incident Management" source="x_1597174_securi_0">dc08b45453d46e10292532a0a0490e74</sys_package><sys_policy/><sys_scope display_value="Security Incident Management">dc08b45453d46e10292532a0a0490e74</sys_scope><sys_update_name>sys_ui_policy_action_5072dd2253902210292532a0a0490e39</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-18 07:31:02</sys_updated_on><table>x_1597174_securi_0_si_incident</table><ui_policy display_value="Make fields read-only on state closed.">a912952253902210292532a0a0490e3c</ui_policy><value/><value_action>ignore</value_action><visible>ignore</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=5072dd2253902210292532a0a0490e39"/></record_update>]]></payload>
+        <payload_hash>-1149745298</payload_hash>
+        <record_name>affected_user</record_name>
+        <reverted_from/>
+        <source>76b7f8cd53906250292532a0a0490e22</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-18 07:31:02</sys_created_on>
+        <sys_id>2982d52253902210292532a0a0490ef9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195a829bd1e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-18 07:31:02</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>2d82d522039022107ba62e67a03de2f8</update_guid>
+        <update_guid_history>2d82d522039022107ba62e67a03de2f8:-1149745298</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-18 07:32:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>0140b12d8ffb4358809e5f16a6467224</sys_id>
+        <sys_metadata>5072dd2253902210292532a0a0490e39</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>affected_user</sys_name>
+        <sys_package display_value="Security Incident Management" source="x_1597174_securi_0">dc08b45453d46e10292532a0a0490e74</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Security Incident Management">dc08b45453d46e10292532a0a0490e74</sys_scope>
+        <sys_scope_delete display_value="">188ef73e6c954952a78051bcd9fa66e1</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_5072dd2253902210292532a0a0490e39</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_5072dd2253902210292532a0a0490e39">2982d52253902210292532a0a0490ef9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-18 07:32:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
