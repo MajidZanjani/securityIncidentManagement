@@ -80,7 +80,7 @@
     // Add options based on the selected category
     if (subcategories[category]) {
         subcategories[category].forEach(function(item) {
-            g_form.addOption('subcategory', item.value, item.value);
+            g_form.addOption('subcategory', item.order, item.value);
         });
     }
 
@@ -92,7 +92,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d9fb914953546250292532a0a0490ee2</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Populate Subcategory based on Category</sys_name>
         <sys_overrides/>
         <sys_package display_value="Security Incident Management" source="x_1597174_securi_0">dc08b45453d46e10292532a0a0490e74</sys_package>
@@ -100,7 +100,7 @@
         <sys_scope display_value="Security Incident Management">dc08b45453d46e10292532a0a0490e74</sys_scope>
         <sys_update_name>catalog_script_client_d9fb914953546250292532a0a0490ee2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-13 16:38:49</sys_updated_on>
+        <sys_updated_on>2025-03-18 15:47:41</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>
