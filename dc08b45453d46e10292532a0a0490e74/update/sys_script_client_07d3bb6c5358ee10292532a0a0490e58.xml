@@ -8,14 +8,14 @@
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>Make Fields Read-Only When State is Clos</name>
+        <name>Fields Read-Only onChange State Closed</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
     if (isLoading || newValue === '') {
         return;
     }
 
-    //Type appropriate comment here, and begin script below
+	// Create the fields array to be changed
     var fields = [
         'affected_user',
         'assignment_group',
@@ -32,6 +32,7 @@
 		'work_notes'
     ];
 
+	// Check if the state is 'closed' or not to change the read-only property of the fields in the array
     if (newValue === 'closed') {
         fields.forEach(function(field) {
             g_form.setReadOnly(field, true);
@@ -49,15 +50,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>07d3bb6c5358ee10292532a0a0490e58</sys_id>
-        <sys_mod_count>20</sys_mod_count>
-        <sys_name>Make Fields Read-Only When State is Clos</sys_name>
+        <sys_mod_count>27</sys_mod_count>
+        <sys_name>Fields Read-Only onChange State Closed</sys_name>
         <sys_overrides/>
         <sys_package display_value="Security Incident Management" source="x_1597174_securi_0">dc08b45453d46e10292532a0a0490e74</sys_package>
         <sys_policy/>
         <sys_scope display_value="Security Incident Management">dc08b45453d46e10292532a0a0490e74</sys_scope>
         <sys_update_name>sys_script_client_07d3bb6c5358ee10292532a0a0490e58</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-12 15:49:20</sys_updated_on>
+        <sys_updated_on>2025-03-18 09:27:27</sys_updated_on>
         <table>x_1597174_securi_0_si_incident</table>
         <type>onChange</type>
         <ui_type>10</ui_type>

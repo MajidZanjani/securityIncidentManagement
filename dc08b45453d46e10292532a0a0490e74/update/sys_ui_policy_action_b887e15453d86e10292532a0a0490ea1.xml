@@ -19,7 +19,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-03-14 13:18:19</sys_updated_on>
         <table>x_1597174_securi_0_si_incident</table>
-        <ui_policy display_value="Make Assigned To field hidden when assignment group isn't selected.">81a6611453d86e10292532a0a0490ecf</ui_policy>
+        <ui_policy display_value="Make 'Assigned To' field hidden when assignment group isn't selected.">81a6611453d86e10292532a0a0490ecf</ui_policy>
         <value/>
         <value_action>ignore</value_action>
         <visible>false</visible>

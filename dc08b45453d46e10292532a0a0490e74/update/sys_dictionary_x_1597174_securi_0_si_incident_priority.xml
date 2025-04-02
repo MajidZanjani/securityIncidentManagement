@@ -2,7 +2,7 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="priority" table="x_1597174_securi_0_si_incident">
         <active>true</active>
         <array>false</array>
-        <attributes/>
+        <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -16,7 +16,7 @@
         <column_label>Priority</column_label>
         <comments/>
         <create_roles/>
-        <default_value>medium</default_value>
+        <default_value>3</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -58,7 +58,7 @@
         <sys_scope display_value="Security Incident Management">dc08b45453d46e10292532a0a0490e74</sys_scope>
         <sys_update_name>sys_dictionary_x_1597174_securi_0_si_incident_priority</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-11 15:26:28</sys_updated_on>
+        <sys_updated_on>2025-03-24 16:50:12</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
