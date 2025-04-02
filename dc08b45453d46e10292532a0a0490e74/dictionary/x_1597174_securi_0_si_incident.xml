@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2cc0495053186e10292532a0a0490eaa" label="Security Incident" max_length="40" name="x_1597174_securi_0_si_incident" type="collection">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Assignment group" max_length="32" name="assignment_group" reference="sys_user_group" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Configuration Item" max_length="32" name="configuration_item" reference="cmdb_ci" type="reference"/>
+        <element display="true" label="Number" max_length="20" name="number" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Caller" max_length="32" name="caller" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" label="Category" max_length="40" name="category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Malicious code activity" value="malicious_code_activity"/>
+                <element inactive_on_update="false" label="Equipment loss" value="equipment_loss"/>
+                <element inactive_on_update="false" label="Phishing email" value="phishing_email"/>
+                <element inactive_on_update="false" label="Malware" value="malware"/>
+            </choice>
+        </element>
+        <element label="Short_description" max_length="80" name="short_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Affected user" max_length="32" name="affected_user" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Parent" max_length="32" name="parent" reference="x_1597174_securi_0_si_incident" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" dependent="category" dependent_on_field="category" label="Subcategory" max_length="40" name="subcategory" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="malicious_code_activity" inactive_on_update="false" label="Trojan" sequence="2" value="trojan"/>
+                <element dependent_value="malware" inactive_on_update="false" label="C&amp;C communication inbound" sequence="1" value="c_c_communication_inbound"/>
+                <element dependent_value="phishing_email" inactive_on_update="false" label="Scam e-mail activity" sequence="0" value="scam_email_activity"/>
+                <element dependent_value="malware" inactive_on_update="false" label="C&amp;C communication outbound" sequence="2" value="c_c_communication_outbound"/>
+                <element dependent_value="equipment_loss" inactive_on_update="false" label="Lost equipment" sequence="0" value="lost_equipment"/>
+                <element dependent_value="phishing_email" inactive_on_update="false" label="Spear phishing" sequence="1" value="spear_phishing"/>
+                <element dependent_value="malicious_code_activity" inactive_on_update="false" label="Botnet" sequence="0" value="botnet"/>
+                <element dependent_value="equipment_loss" inactive_on_update="false" label="Stolen equipment" sequence="1" value="stolen_equipment"/>
+                <element dependent_value="malicious_code_activity" inactive_on_update="false" label="Keylogger" sequence="1" value="keylogger"/>
+                <element dependent_value="malware" inactive_on_update="false" label="Ransomware" sequence="0" value="ransomware"/>
+            </choice>
+        </element>
+        <element label="Work_notes" max_length="4000" name="work_notes" type="journal"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="new" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Closed" sequence="4" value="closed"/>
+                <element inactive_on_update="false" label="New" sequence="0" value="new"/>
+                <element inactive_on_update="false" label="Analysis" sequence="1" value="analysis"/>
+                <element inactive_on_update="false" label="Recover" sequence="2" value="recover"/>
+                <element inactive_on_update="false" label="Review" sequence="3" value="review"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="3" label="Priority" max_length="40" name="priority" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="2 - High" sequence="0" value="2"/>
+                <element inactive_on_update="false" label="1 - Critical" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="4 - Low" sequence="0" value="4"/>
+                <element inactive_on_update="false" label="3 - Medium" sequence="0" value="3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" label="Contact_type" max_length="40" name="contact_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Email" value="email"/>
+                <element inactive_on_update="false" label="Self-registered" value="self_registered"/>
+                <element inactive_on_update="false" label="Monitoring" value="monitoring"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" dependent="assignment_group" dependent_on_field="assignment_group" dynamic_creation="true" dynamic_creation_script="javascript:getUserByGroup('assignment_group')" label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" type="reference" use_dependent_field="true"/>
+        <element label="Description" max_length="256" name="description" type="string"/>
+        <index name="index">
+            <element name="affected_user"/>
+        </index>
+        <index name="index2">
+            <element name="assigned_to"/>
+        </index>
+        <index name="index3">
+            <element name="assignment_group"/>
+        </index>
+        <index name="index4">
+            <element name="caller"/>
+        </index>
+        <index name="index5">
+            <element name="configuration_item"/>
+        </index>
+        <index name="index6">
+            <element name="number"/>
+        </index>
+        <index name="index7">
+            <element name="parent"/>
+        </index>
+        <index name="index8">
+            <element name="short_description"/>
+        </index>
+    </element>
+</database>
